@@ -1,1 +1,19 @@
 2024-05-17 11:02:52,430 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-17 11:04:58,384 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.treinamento:TreinamentoGit:0.0.1-SNAPSHOT @ C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring\TreinamentoGit\pom.xml.
+2024-05-17 11:04:59,211 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TreinamentoGit/src/main/java
+2024-05-17 11:04:59,214 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TreinamentoGit/src/main/resources
+2024-05-17 11:04:59,222 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TreinamentoGit/src/main/resources
+2024-05-17 11:04:59,227 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TreinamentoGit/src/test/java
+2024-05-17 11:04:59,228 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TreinamentoGit/src/test/resources
+2024-05-17 11:04:59,731 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2024-05-17 11:04:59,736 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-17 11:05:00,096 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.treinamento:TreinamentoGit:0.0.1-SNAPSHOT @ C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring\TreinamentoGit\pom.xml.
+2024-05-17 11:05:00,500 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TreinamentoGit/src/main/java
+2024-05-17 11:05:00,502 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TreinamentoGit/src/main/resources
+2024-05-17 11:05:00,504 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TreinamentoGit/src/main/resources
+2024-05-17 11:05:00,505 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TreinamentoGit/src/test/java
+2024-05-17 11:05:00,507 [Worker-0: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TreinamentoGit/src/test/resources
+2024-05-17 11:05:01,003 [Worker-0: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 0,00 sec, update config takes 0,00 sec 
+2024-05-17 11:05:01,823 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 11:05:01,855 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 11:05:01,863 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring\TreinamentoGit\src\test\resources
