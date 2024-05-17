@@ -1,4 +1,4 @@
-package Entity;
+package com.treinamento.git.entity;
 
 public class Customer {
 	
