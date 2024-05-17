@@ -50,3 +50,42 @@ Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encon
 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
 	... 7 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 11:04:59.922
+!MESSAGE Classpath changed for project: TreinamentoGit
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 11:04:59.927
+!MESSAGE Boot project ADDED: TreinamentoGit
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 11:04:59.943
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 11:04:59.979
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-17 11:05:00.006
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
+-cp
+C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/Simples/Documents/Ruan/EstagioSimples/Spring/RepositorioSpring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715954700004
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 11:05:00.007
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-17 11:05:00.014
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 18280
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 11:05:00.803
+!MESSAGE Classpath changed for project: TreinamentoGit
