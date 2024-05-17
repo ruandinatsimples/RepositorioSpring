@@ -1,38 +1,38 @@
-!SESSION 2024-05-17 10:50:16.485 -----------------------------------------------
+!SESSION 2024-05-17 11:02:43.953 -----------------------------------------------
 eclipse.buildId=4.22.0.202403071427
 java.version=17.0.10
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
 Framework arguments:  -product org.springframework.boot.ide.branding.sts4
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
 
-!ENTRY org.eclipse.emf.ecore 2 0 2024-05-17 10:50:30.662
+!ENTRY org.eclipse.emf.ecore 2 0 2024-05-17 11:02:45.717
 !MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
 
-!ENTRY ch.qos.logback.classic 1 0 2024-05-17 10:50:30.970
+!ENTRY ch.qos.logback.classic 1 0 2024-05-17 11:02:46.007
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
-!ENTRY ch.qos.logback.classic 1 0 2024-05-17 10:50:32.166
+!ENTRY ch.qos.logback.classic 1 0 2024-05-17 11:02:47.360
 !MESSAGE Logback config file: C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.0.20240217-1525.xml
 
-!ENTRY org.eclipse.ui 2 0 2024-05-17 10:50:32.851
+!ENTRY org.eclipse.ui 2 0 2024-05-17 11:02:47.933
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-17 10:50:32.851
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-17 11:02:47.933
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.ui 2 0 2024-05-17 10:50:33.128
+!ENTRY org.eclipse.ui 2 0 2024-05-17 11:02:48.294
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-17 10:50:33.128
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-05-17 11:02:48.294
 !MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
 
-!ENTRY org.eclipse.egit.ui 2 0 2024-05-17 10:50:37.767
+!ENTRY org.eclipse.egit.ui 2 0 2024-05-17 11:02:52.492
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Simples'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.ui.workbench 4 0 2024-05-17 10:50:37.795
+!ENTRY org.eclipse.ui.workbench 4 0 2024-05-17 11:02:52.512
 !MESSAGE Failed to obtain 'WinDefend' service state
 !STACK 0
 java.io.IOException: Cannot run program "powershell.exe": CreateProcess error=2, O sistema não pode encontrar o arquivo especificado
@@ -50,42 +50,3 @@ Caused by: java.io.IOException: CreateProcess error=2, O sistema não pode encon
 	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:158)
 	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
 	... 7 more
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 10:52:33.900
-!MESSAGE Classpath changed for project: TreinamentoGit
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 10:52:33.901
-!MESSAGE Boot project ADDED: TreinamentoGit
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 10:52:33.902
-!MESSAGE Starting Boot LS...
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 10:52:33.933
-!MESSAGE Started Boot LS process
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-17 10:52:33.988
-!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
-START:
-C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin\javaw.exe
--cp
-C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\lib\*
--Dsts.lsp.client=eclipse
--Dlsp.completions.indentation.enable=true
--Xmx1024m
--XX:+HeapDumpOnOutOfMemoryError
--XX:TieredStopAtLevel=1
--Xlog:jni+resolve=off
--Dspring.config.location=file:C:\Users\Simples\Documents\sts-4.22.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.53.0.202403071323\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
--XX:ErrorFile=C:/Users/Simples/Documents/Ruan/EstagioSimples/Spring/RepositorioSpring/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1715953953987
-org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
---languageserver.hover-timeout=225
-END
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 10:52:33.989
-!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
-
-!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-05-17 10:52:34.006
-!MESSAGE Started org.springframework.tooling.boot.ls LS process 17084
-
-!ENTRY org.springframework.tooling.boot.ls 1 0 2024-05-17 10:52:34.794
-!MESSAGE Classpath changed for project: TreinamentoGit
