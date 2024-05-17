@@ -17,3 +17,6 @@
 2024-05-17 11:05:01,823 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-05-17 11:05:01,855 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-05-17 11:05:01,863 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring\TreinamentoGit\src\test\resources
+2024-05-17 11:06:40,671 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-05-17 11:06:40,680 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-05-17 11:06:40,683 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Simples\Documents\Ruan\EstagioSimples\Spring\RepositorioSpring\TreinamentoGit\src\test\resources
